@@ -129,7 +129,7 @@ class Qdrant {
         validateType.string(collectionName, 'collectionName');
         validator.validate('search-query', queryData);
 
-        console.log(queryData);
+        // console.log(queryData);
         // POST /collections/{collection_name}/points/search
 
         return this.#fetch(
