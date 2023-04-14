@@ -1,6 +1,6 @@
 {
   "name": "qdrant-api",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
@@ -8,5 +8,28 @@
     "debug-symbols": "^1.0.2",
     "fastest-validator": "^1.16.0",
     "lodash": "^4.17.21"
-  }
+  },
+  "description": "Javascript API for qdrant",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mugendi/qdrant-api.git"
+  },
+  "keywords": [
+    "qdrant",
+    "db",
+    "database",
+    "vector"
+  ],
+  "author": "Anthony Mugendi <ngurumugz@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/mugendi/qdrant-api/issues"
+  },
+  "homepage": "https://github.com/mugendi/qdrant-api#readme"
 }
